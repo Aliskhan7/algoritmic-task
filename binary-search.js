@@ -58,3 +58,19 @@ function binSearch(arr, n){
     return j - i -1
 }
 binSearch(arrSort, 4)
+
+
+
+let obj = {a: 2, b: { c: 3, d: { e: 5}}, f: 6, g: {h: 7}} //удалить самый глубокий элемент из объекта
+
+
+
+let result
+for(let key in obj){
+    result = obj[key]
+}
+console.log(result)
+
+
+
+let llo = 'a,b,c,d,e' // сделать  {a: {b: {c:{d: {e: {}}}}}}
