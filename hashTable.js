@@ -23,6 +23,7 @@ class HashTable {
 const dict = new HashTable()
 //const dict = new Map()
 
+
 dict.add('lorem', '1')
 dict.add('ipsun', '2')
 
