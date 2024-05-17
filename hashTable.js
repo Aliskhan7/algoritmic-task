@@ -1,5 +1,7 @@
 class HashTable {
+
     store = new Array(10)
+
     hash(key){
         let sum = 0;
         for (let i = 0; i< key.length; i++){
@@ -21,7 +23,8 @@ class HashTable {
 const dict = new HashTable()
 //const dict = new Map()
 
-dict.add('aa', '3')
-dict.add('bb', '34')
 
-console.log(dict.get('aa'))
+dict.add('lorem', '1')
+dict.add('ipsun', '2')
+
+console.log(dict.get('lorem'), dict.get('ipsun'))
